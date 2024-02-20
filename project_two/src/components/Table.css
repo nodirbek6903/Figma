@@ -1,0 +1,168 @@
+.tables{
+  position: relative;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 2rem;
+    margin: 30px 0;
+}
+.teachers{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.teachers .card{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.teachers .card .description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.teachers .card .description .number{
+    font-size: 25px;
+    font-weight: bold;
+}
+.teachers .card .description .check-teacher{
+    color: #ddd;
+    font-size: 14px;
+}
+.teachers .card .icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #b0eacb;
+    padding: 10px;
+    color: #00AC4F;
+}
+.tables-description{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.tables-description .table-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tables-description .table-title span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.tables-description .table-title .table-search input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #faf8f8;
+    width: 250px;
+}
+.tables-description .table-title button{
+    width: 90px;
+    height: 35px;
+    border: none;
+    color: #00AC4F;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #9de7c0;
+    border: 2px solid #17d16e;
+    cursor: pointer;
+}
+.tables-description .table-title .table-option select{
+    padding: 8px;
+    border-radius: 4px;
+    width: 150px;
+    border: none;
+    background-color: #faf8f8;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+table {
+    width: 900px;
+    min-height: 500px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+    
+  thead{
+    padding: 20px;
+  }
+   tbody td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  thead tr {
+    font-weight: bold;
+    text-align: center;
+  }
+  thead tr td{
+    color: #828080;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  tbody tr td{
+    font-size: 14px;
+  }
+    
+  .userlar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userlar img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .btn {
+    background-color: #9de7c0;
+    color: #00AC4F;
+    font-weight: bold;
+    width: 100px;
+    padding: 6px;
+    border: 2px solid #17d16e;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .reg-btn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: right;
+  }
+  .reg{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    background: #50FFCA;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  
+
